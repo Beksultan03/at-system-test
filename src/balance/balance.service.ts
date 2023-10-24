@@ -13,7 +13,7 @@ export async function fetchBalance() {
   const sessionId = await cacheService.get<SessionCred>(SESSION_ID);
 
   if (!sessionId) {
-    logger.error('SessionId is undefined');
+    throw new Error('SessionId is undefined');
   }
 
   const response = await fetch(
