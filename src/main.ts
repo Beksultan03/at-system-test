@@ -16,6 +16,4 @@ const port = appConfig.port || 3000;
 
 app.listen(port, () => {
   logger.info(`Server is running on port ${port}`);
-  logger.info(`appConfig.port ${appConfig.port}`);
-  logger.info(`appConfig.redisURL ${appConfig.redisURL}`);
 });

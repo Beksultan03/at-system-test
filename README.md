@@ -10,8 +10,8 @@
 
 ## Launch
 - create .env file
-- docker-compose up redis
-- npm run start:dev
+- docker build -t at-system -f .\Dockerfile .
+- docker-compose up
 
 
 ## API
