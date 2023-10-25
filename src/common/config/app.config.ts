@@ -3,15 +3,6 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export class AppConfig {
-  get isProductionEnv(): boolean {
-    const env = process.env.ENV;
-
-    if (!env) {
-      throw Error('[ENV] ENV is undefined');
-    }
-
-    return env == 'production';
-  }
 
   get port(): number {
     const port = process.env.PORT;
