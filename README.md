@@ -9,8 +9,6 @@
 
 
 ## Launch
-- create .env file
-- docker build -t at-system -f .\Dockerfile .
 - docker-compose up
 
 
