@@ -1,7 +1,7 @@
 ## Stack
 - Express.js 
 - Typescript
-- Yarn
+- Npm
 - Redis
 - Pino logger
 - Joi validation
